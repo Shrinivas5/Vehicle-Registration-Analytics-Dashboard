@@ -86,31 +86,6 @@ chmod +x scripts/setup_dashboard.sh
 python run_dashboard.py
 \`\`\`
 
-## 📁 Project Structure
-
-\`\`\`
-vahan-dashboard/
-├── src/                          # Core application code
-│   ├── data_collector.py         # Data collection and processing
-│   ├── database_manager.py       # Enhanced database operations
-│   ├── analytics_engine.py       # Core analytics and calculations
-│   └── investor_insights.py      # Investment-focused analysis
-├── dashboard/                    # Streamlit dashboard
-│   ├── main.py                   # Main dashboard application
-│   ├── components.py             # Reusable UI components
-│   ├── config.py                 # Configuration settings
-│   └── utils.py                  # Utility functions
-├── database/                     # Database schema and migrations
-│   ├── schema.sql                # Complete database schema
-│   └── migrations/               # Database migration scripts
-├── scripts/                      # Utility and setup scripts
-│   ├── initialize_database.py    # Database setup
-│   ├── run_analytics.py          # Analytics execution
-│   └── setup_dashboard.sh        # Complete setup script
-├── data/                         # Data storage directory
-├── docs/                         # Documentation
-└── requirements.txt              # Python dependencies
-\`\`\`
 
 ## 📊 Data Assumptions
 
